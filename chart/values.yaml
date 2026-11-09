@@ -8,7 +8,7 @@ image:
 
 replicas: 1
 message: checkout
-progressDeadlineSeconds: 90   # report a failed rollout after 2 minutes
+progressDeadlineSeconds: 120   # report a failed rollout after 2 minutes
 
 resources:
   requests: { cpu: 50m, memory: 64Mi }
